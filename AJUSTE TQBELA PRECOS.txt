@@ -1,0 +1,5 @@
+update  tpess set Cd_TabPre = '1' ,coluna  = 1 where cliente = 'S'  and isnull(Cd_TabPre,0) = 1 and Pad_PlanoCR in (3,20,40,54)
+update  tpess set Cd_TabPre = '22' ,coluna  = 1 where cliente = 'S'  and isnull(Cd_TabPre,0) = 1 and Pad_PlanoCR in (9,21,41,4,10,57,58)
+update  tpess set Cd_TabPre = '23' ,coluna  = 1 where cliente = 'S'  and isnull(Cd_TabPre,0) = 1 and Pad_PlanoCR in (5,10,22,42,49)
+update  tpess set Cd_TabPre = '24' ,coluna  = 1 where cliente = 'S'  and isnull(Cd_TabPre,0) = 1 and Pad_PlanoCR in (6,17,23,25,43,51,56)
+update  tpess set Cd_TabPre = '25' ,coluna  = 1 where cliente = 'S'  and isnull(Cd_TabPre,0) = 1 and Pad_PlanoCR in (7,8,11,14,19,23,25,44,45,46,48,52,53)
